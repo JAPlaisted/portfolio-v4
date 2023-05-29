@@ -1,0 +1,52 @@
+.ars-demo {
+    .arsLogo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 3em;
+        margin-bottom: 2em;
+      }
+
+      .arsDesc {
+        text-align: left;
+        margin-inline: 10%;
+        color: var(--color-body-dark);
+      }
+
+      .ars-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: var(--color-body-dark);
+        margin: 0.5em;
+      }
+      
+      .ars-media > div > p { 
+        font-size: 1.75em;
+      }
+      
+      .ars-media > div > h3 { 
+        font-size: 2.75em;
+      }
+      
+      .ars-media > img {
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+      }
+
+      @media screen and (min-width: 1200px) {
+        .arsDesc {
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .ars-media {
+            flex-direction: row;
+            margin: 6em;
+            height: 400px;
+            font-size: 1em;
+        }
+        .ars-media > img {
+            margin-right: 2em;
+        }
+      }
+}

@@ -15,6 +15,7 @@ import './css/global/typography.scss';
 import './css/pages/more-projects.scss';
 import './css/pages/bucket-list.scss';
 import './css/pages/py-tracking.scss';
+import './css/pages/ars-demo.scss';
 import './css/components/nav.scss';
 import './css/components/hero.scss';
 import './css/components/projects.scss';
