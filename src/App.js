@@ -7,6 +7,7 @@ import MoreProjects from "./pages/MoreProjects";
 import BucketList from "./pages/BucketList";
 import Book from "./pages/Book";
 import './App.css';
+import './css/global/container.scss';
 import './css/components/nav.scss';
 
 function App() {

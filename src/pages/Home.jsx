@@ -3,7 +3,7 @@ import Navbar from '../components/nav.jsx'
 
 function Home(props) {
     return (
-        <div id="#top">
+        <div id="#top" className='container'>
             <Navbar></Navbar>
             <div >Hero</div>
             <div>Projects</div>
