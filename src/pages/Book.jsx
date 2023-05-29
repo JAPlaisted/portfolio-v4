@@ -37,9 +37,11 @@ function Book() {
                         </a>
                     </div>
                     <div className="media">
-                        <img src="https://cdn.midjourney.com/878d5bff-33ca-4841-a6b4-73b69b5095ce/grid_0.png" alt="DMV2099 Cover Art" />
-                        <h4>DMV2099</h4>
-                        <p>"DMV 2099" is a gripping tale of a man's arduous journey through a futuristic, isolated DMV building, testing his resilience and desire for human connection.</p>
+                        <a href="/dmv-2099">
+                            <img src="https://cdn.midjourney.com/878d5bff-33ca-4841-a6b4-73b69b5095ce/grid_0.png" alt="DMV2099 Cover Art" />
+                            <h4>DMV2099</h4>
+                            <p>"DMV 2099" is a gripping tale of a man's arduous journey through a futuristic, isolated DMV building, testing his resilience and desire for human connection.</p>
+                        </a>
                     </div>
                 </div>
             </div>

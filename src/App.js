@@ -25,6 +25,7 @@ import './css/components/footer.scss';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import TheLastMan from "./pages/TheLastMan";
+import DMV2099 from "./pages/Dmv2099";
 
 function App() {
   useEffect(() => {
@@ -42,6 +43,7 @@ function App() {
           <Route path="/bucket-list" element={<BucketList />} />
           <Route path="/book" element={<Book />} />
           <Route path="/the-last-man" element={<TheLastMan />} />
+          <Route path="/dmv-2099" element={<DMV2099 />} />
         </Routes>
       </BrowserRouter>
     </div>
