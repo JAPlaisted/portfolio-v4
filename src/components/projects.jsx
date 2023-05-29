@@ -16,7 +16,7 @@ function Projects() {
 
   return (
     <div id="projects">
-        <h2>Projects</h2>
+        <h2>Work</h2>
         <HashLink className="link" to="/more-projects">View All</HashLink>
         <div className="projects">
         {projectsData.slice(0, 6).reduce((rows, project, index) => {

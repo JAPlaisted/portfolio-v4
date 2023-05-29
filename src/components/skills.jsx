@@ -9,7 +9,7 @@ import SmartToyIcon from '@mui/icons-material/SmartToy';
 function skills() {
     return (
         <div id="skills">
-            <h2>Skills</h2>
+            <h2>Toolkit</h2>
             <div className='skills'>
                 <div className="row">
                     <div className="media" data-aos="fade-left">

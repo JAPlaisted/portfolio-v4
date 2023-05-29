@@ -23,10 +23,23 @@
                 border: 2px solid var(--color-body-dark);
                 border-radius: 2.5px;
                 padding: 0.2rem 0.5rem;
+
+                &:hover {
+                    background-color: var(--color-body-dark);
+                    transition: 0.8s;
+
+                    a {
+                        color: var(--color-body-lighter);
+                    }
+                }
             }
 
             a {
                 color: var(--color-body-dark)
+            }
+
+            a:hover {
+                color: var(--color-body-darker)
             }
 
             .link {
