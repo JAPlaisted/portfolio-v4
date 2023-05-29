@@ -1,11 +1,13 @@
-import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
 import Home from "./pages/Home";
 import PyTracking from "./pages/PyTracking";
 import ArsDemo from "./pages/ArsDemo";
 import MoreProjects from "./pages/MoreProjects";
 import BucketList from "./pages/BucketList";
 import Book from "./pages/Book";
+import './App.css';
+import './css/components/nav.scss';
 
 function App() {
   return (

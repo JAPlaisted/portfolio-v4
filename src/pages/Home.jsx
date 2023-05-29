@@ -1,9 +1,14 @@
 import React from 'react';
+import Navbar from '../components/nav.jsx'
 
 function Home(props) {
     return (
-        <div>
-            Home
+        <div id="#top">
+            <Navbar></Navbar>
+            <div >Hero</div>
+            <div>Projects</div>
+            <div>Skills</div>
+            <div>Footer</div>
         </div>
     );
 }
