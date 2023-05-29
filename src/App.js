@@ -11,6 +11,7 @@ import './css/global/container.scss';
 import './css/global/colors.scss';
 import './css/global/buttons.scss';
 import './css/global/media.scss';
+import './css/global/typography.scss';
 import './css/components/nav.scss';
 import './css/components/hero.scss';
 import './css/components/projects.scss';
