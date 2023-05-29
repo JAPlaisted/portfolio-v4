@@ -1,0 +1,60 @@
+#projects {
+    margin-top: 6rem;
+    background-color: var(--color-body-dark);
+    border-radius: 5px;
+    padding: 2rem;
+    
+    h2 {
+        color: var(--color-primary);
+        font-size: 3rem;
+    }
+
+    a {
+        color: var(--color-primary);
+    }
+
+    .link {
+        color: var(--color-primary);
+        text-decoration: none;
+        font-size: 1.2rem;
+        position: relative;
+        top: -20px;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: var(--color-light-bkgrnd);
+            color: var(--color-body-dark);
+        }
+    }
+
+    .projects {
+        @media (min-width: 728px) {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: column;
+
+            @media (min-width: 728px) {
+                flex-direction: row;
+            }
+        }
+
+        h4 {
+            font-size: 1.6rem;
+            @media (min-width: 728px) {
+                font-size: 2rem;
+            }
+        }
+
+        p {
+            font-size: 1.4rem;
+            @media (min-width: 728px) {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
