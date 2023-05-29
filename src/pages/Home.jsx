@@ -5,7 +5,7 @@ import Projects from '../components/projects.jsx'
 import Skills from '../components/skills.jsx'
 import Footer from '../components/footer.jsx'
 
-function Home(props) {
+function Home() {
     return (
         <div id="#top" className='container'>
             <Navbar/>

@@ -4,6 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import CodeIcon from '@mui/icons-material/Code';
+import Hiker from '@mui/icons-material/Hiking';
 import logo from '../assets/logo.webp'
 
 function hero(props) {
@@ -18,6 +19,7 @@ function hero(props) {
                     <a href="https://www.linkedin.com/in/jonathan-plaisted/" target="/"><LinkedInIcon className='icon' style={{fontSize: "x-large"}}/></a>
                     <a href="https://twitter.com/cssslinger" target="/"><TwitterIcon className='icon' style={{fontSize: "x-large"}}/></a>
                     <a href="https://codepen.io/japlaisted" target="/"><CodeIcon className='icon' style={{fontSize: "x-large"}}/></a>
+                    <a href="/bucket-list"><Hiker className='icon' style={{fontSize: "x-large"}}/></a>
                 </div>
                 <div className='hero-links'>
                     <a href="mailto: jonathan.plaisted@outlook.com" className='btn'>Email</a>
