@@ -8,6 +8,7 @@ import BucketList from "./pages/BucketList";
 import Book from "./pages/Book";
 import './App.css';
 import './css/global/container.scss';
+import './css/global/colors.scss';
 import './css/components/nav.scss';
 
 function App() {
