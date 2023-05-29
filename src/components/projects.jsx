@@ -37,9 +37,9 @@ function Projects() {
             );
             return rows;
         }, []).map((row, rowIndex) => (
-            <div className="row" key={rowIndex}>
+            <React.Fragment key={rowIndex}>
             {row}
-            </div>
+            </React.Fragment>
         ))}
         </div>
     </div>

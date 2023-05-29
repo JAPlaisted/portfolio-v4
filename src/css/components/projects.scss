@@ -29,18 +29,19 @@
     }
 
     .projects {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
         @media (min-width: 728px) {
-            display: flex;
-            flex-direction: column;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
         }
 
-        .row {
-            display: flex;
-            flex-direction: column;
-
-            @media (min-width: 728px) {
-                flex-direction: row;
-            }
+        @media (min-width: 1024px) {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
         }
 
         h4 {

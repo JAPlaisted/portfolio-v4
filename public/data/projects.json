@@ -43,46 +43,45 @@
         "project-image": "https://cdn.midjourney.com/7e2718c9-54bd-40e5-996f-221dc1e47ef0/grid_0.png"
       },
       {
-        "project-link": "https://example.com/project3",
-        "project-name": "Project 3",
-        "project-description": "This is the description of Project 3.",
-        "github-link": "https://github.com/username/project3",
-        "project-image": "https://example.com/images/project3.png"
+        "project-link": "https://cosmic-sunburst-b998ed.netlify.app/",
+        "project-name": "Find Jon",
+        "project-description": "The React application presented here serves as a solution to the constraint posed by certain websites, such as Instagram, which only allow for a singular link.",
+        "github-link": "https://github.com/JAPlaisted/find-jon",
+        "project-image": "https://cdn.midjourney.com/e0bc8e61-50ef-4ff5-8602-d5e8f750c114/grid_0.png"
       },
       {
-        "project-link": "https://example.com/project3",
-        "project-name": "Project 3",
-        "project-description": "This is the description of Project 3.",
-        "github-link": "https://github.com/username/project3",
-        "project-image": "https://example.com/images/project3.png"
+        "project-link": "/ars-demo",
+        "project-name": "Advantage Route Systems",
+        "project-description": "As a front-end developer utilizing Vue.js, Amazon Web Services, Knex.js, Quasar, and Swagger, I contributed to Advantage Route Systems' route optimization services for various delivery companies.",
+        "project-image": "https://cdn.midjourney.com/d17dfcab-f614-47ad-8f1b-f7f982bd6961/grid_0.png"
       },
       {
-        "project-link": "https://example.com/project3",
-        "project-name": "Project 3",
-        "project-description": "This is the description of Project 3.",
-        "github-link": "https://github.com/username/project3",
-        "project-image": "https://example.com/images/project3.png"
+        "project-link": "https://magnificent-torte-aec714.netlify.app/",
+        "project-name": "Pacifica Pizza",
+        "project-description": "Pacifica Pizza is a pizzeria chain situated in Fresno, California, that serves both specialty and traditional pies. The website was developed using React.js.",
+        "github-link": "https://github.com/JAPlaisted/react-pizza",
+        "project-image": "https://cdn.midjourney.com/75f60fbe-91ea-4ab8-85f4-612191a83c20/grid_0.png"
       },
       {
-        "project-link": "https://example.com/project3",
-        "project-name": "Project 3",
-        "project-description": "This is the description of Project 3.",
-        "github-link": "https://github.com/username/project3",
-        "project-image": "https://example.com/images/project3.png"
+        "project-link": "https://stately-tarsier-fd5ad6.netlify.app/",
+        "project-name": "Mike Bourne Music",
+        "project-description": "The official website of rapper Mike Bourne from Arkansas was developed using React.js, React Router, Email.js, and custom CSS.",
+        "github-link": "https://github.com/JAPlaisted/bourne-music",
+        "project-image": "https://cdn.midjourney.com/365d00d3-0954-4636-a8d2-c734c9e4bec8/grid_0.png"
       },
       {
-        "project-link": "https://example.com/project3",
-        "project-name": "Project 3",
-        "project-description": "This is the description of Project 3.",
-        "github-link": "https://github.com/username/project3",
-        "project-image": "https://example.com/images/project3.png"
+        "project-link": "https://admirable-lebkuchen-db46f7.netlify.app/",
+        "project-name": "Zoa Energy",
+        "project-description": "ZOA promotes a healthful and uplifting energy that enhances focus, productivity, and teamwork. Utilizing React, the ZOA landing page showcases the product and offers a purchasing option.",
+        "github-link": "https://github.com/JAPlaisted/ZoaEnergyLandingPage",
+        "project-image": "https://cdn.midjourney.com/aae4b164-a7df-411d-a733-87a8b2442614/grid_0.png"
       },
       {
-        "project-link": "https://example.com/project3",
-        "project-name": "Project 3",
-        "project-description": "This is the description of Project 3.",
-        "github-link": "https://github.com/username/project3",
-        "project-image": "https://example.com/images/project3.png"
+        "project-link": "https://elegant-austin-e61aa0.netlify.app/",
+        "project-name": "Rock, Paper, Scissors, Lizard, Spock.",
+        "project-description": "\"Rock, Paper, Scissors, Lizard, Spoc\" is an amusing spin-off to the traditional game that was implemented using Javascript.",
+        "github-link": "https://github.com/JAPlaisted/RPSLP",
+        "project-image": "https://cdn.midjourney.com/2350da9c-5128-47ca-822b-d3f41fb68725/grid_0.png"
       }
     ]
   }
