@@ -19,10 +19,15 @@
             list-style-type: none;
             font-size: 2rem;
 
+            &:first-of-type {
+                border: 2px solid var(--color-body-dark);
+                border-radius: 2.5px;
+                padding: 0.2rem 0.5rem;
+            }
+
             a {
                 color: var(--color-body-dark)
             }
-            
 
             .link {
                 text-decoration: none;
