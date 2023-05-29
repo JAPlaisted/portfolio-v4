@@ -16,6 +16,7 @@ import './css/pages/more-projects.scss';
 import './css/pages/bucket-list.scss';
 import './css/pages/py-tracking.scss';
 import './css/pages/ars-demo.scss';
+import './css/pages/book.scss';
 import './css/components/nav.scss';
 import './css/components/hero.scss';
 import './css/components/projects.scss';
@@ -23,6 +24,7 @@ import './css/components/skills.scss';
 import './css/components/footer.scss';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import TheLastMan from "./pages/TheLastMan";
 
 function App() {
   useEffect(() => {
@@ -39,6 +41,7 @@ function App() {
           <Route path="/ars-demo" element={<ArsDemo />} />
           <Route path="/bucket-list" element={<BucketList />} />
           <Route path="/book" element={<Book />} />
+          <Route path="/the-last-man" element={<TheLastMan />} />
         </Routes>
       </BrowserRouter>
     </div>
