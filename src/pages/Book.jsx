@@ -3,7 +3,7 @@ import Navbar from '../components/nav.jsx'
 
 function Book(props) {
     return (
-        <div>
+        <div className='container'>
             <Navbar></Navbar>
             Book
         </div>

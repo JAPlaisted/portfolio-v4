@@ -1,5 +1,10 @@
 .container {
-   @media (min-width: 768px) {
+    margin-inline: 1rem;
+
+    @media (min-width: 425px) {
+        margin-inline: 3rem;
+    }
+    @media (min-width: 768px) {
         margin-inline: 5rem;
     }
 }

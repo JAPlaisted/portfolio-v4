@@ -9,7 +9,9 @@ import Book from "./pages/Book";
 import './App.css';
 import './css/global/container.scss';
 import './css/global/colors.scss';
+import './css/global/buttons.scss';
 import './css/components/nav.scss';
+import './css/components/hero.scss';
 
 function App() {
   return (
