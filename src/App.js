@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React from "react";
+import React, { useEffect } from "react";
 import Home from "./pages/Home";
 import PyTracking from "./pages/PyTracking";
 import ArsDemo from "./pages/ArsDemo";
@@ -17,8 +17,14 @@ import './css/components/hero.scss';
 import './css/components/projects.scss';
 import './css/components/skills.scss';
 import './css/components/footer.scss';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="App">
       <BrowserRouter>
