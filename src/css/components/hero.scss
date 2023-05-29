@@ -26,11 +26,10 @@
         margin-top: 10%;
         color: var(--color-body-dark);
 
-        h2 {
+        h1 {
             text-align: left;
             font-size: 3rem;
             margin: 0;
-            white-space: nowrap;
 
             @media (min-width: 1024px) {
                 font-size: 6rem;

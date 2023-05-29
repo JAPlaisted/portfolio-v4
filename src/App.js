@@ -15,6 +15,7 @@ import './css/global/typography.scss';
 import './css/components/nav.scss';
 import './css/components/hero.scss';
 import './css/components/projects.scss';
+import './css/components/skills.scss';
 
 function App() {
   return (
