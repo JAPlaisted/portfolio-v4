@@ -16,6 +16,7 @@ import './css/components/nav.scss';
 import './css/components/hero.scss';
 import './css/components/projects.scss';
 import './css/components/skills.scss';
+import './css/components/footer.scss';
 
 function App() {
   return (
