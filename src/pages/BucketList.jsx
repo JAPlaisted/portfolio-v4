@@ -11,15 +11,24 @@ function BucketList() {
             <Navbar/>
             <h2>BUCKET LIST</h2>
                 <div className="bucket-list">
-                    <div className="cards">
-                        <div className='postcard'>
-                            <img src={bucket1} alt="" />
+                    <div className="photo-grid">
+                        <div className='polaroid'>
+                            <div className="gloss">
+                                <img className='polaroid-img' src={bucket1} alt="" />
+                                <p>Isla Mujeres</p>
+                            </div>
                         </div>
-                        <div className='postcard'>
-                            <img src={bucket2} alt="" />
+                        <div className='polaroid'>
+                            <div className="gloss">
+                                <img className='polaroid-img' src={bucket2} alt="" />
+                                <p>Cozumel</p>
+                            </div>
                         </div>
-                        <div className='postcard'>
-                            <img src={bucket3} alt="" />
+                        <div className='polaroid'>
+                            <div className="gloss">
+                                <img className='polaroid-img' src={bucket3} alt="" />
+                                <p>Chichen Itza</p>
+                            </div>
                         </div>
                     </div>
                     <div className="list">
