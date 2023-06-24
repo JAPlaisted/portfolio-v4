@@ -24,6 +24,13 @@
             grid-template-rows: repeat(2, 1fr);
         }
 
+        .skill-icon {
+            background-color: var(--color-body-dark);
+            fill: var(--color-primary);
+            padding: 2.5rem;
+            border-radius: 100%;
+        }
+
         h4 {
             font-size: 1.6rem;
             @media (min-width: 728px) {
