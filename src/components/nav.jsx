@@ -7,8 +7,8 @@ function nav() {
             <ul>
                 <li><HashLink className='link' to="/#top">J</HashLink></li>
                 <li><HashLink className='link' to="/#projects">Work</HashLink></li>
-                <li><HashLink className='link' to="/#skills">Toolkit</HashLink></li>
-                <li><HashLink className='link' to="/book">Book</HashLink></li>
+                <li><HashLink className='link' to="/#skills">Skills</HashLink></li>
+                {/* <li><HashLink className='link' to="/book">Book</HashLink></li> */}
             </ul>
         </nav>
     );
